@@ -1,0 +1,135 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+  }
+  
+  /* Menú sticky, centrado igual que el contenido */
+  nav {
+    background: white;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    display: flex;
+    gap: 18px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contenido centrado */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  /* Para que al hacer click en el menú no quede tapado por el nav sticky */
+  section {
+    margin-bottom: 40px;
+    scroll-margin-top: 70px;
+  }
+  
+  /* Botones */
+  .btn {
+    display: inline-block;
+    padding: 10px 14px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #000;
+    margin-top: 8px;
+  }
+  
+  .btn:hover {
+    background: #000;
+    color: #fff;
+  }
+  
+  .hero {
+    padding: 60px 0 30px 0;
+  }
+  
+  .hero p {
+    max-width: 600px;
+    line-height: 1.5;
+  }
+  
+  .hero-actions {
+    margin-top: 16px;
+    display: flex;
+    gap: 12px;
+  }
+  
+  .btn-secondary {
+    background: transparent;
+  }
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .brand {
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 18px;
+  }
+  /* El container normal tiene padding grande para el contenido,
+   pero en el menú lo hacemos más chico */
+nav .container {
+    padding: 12px 20px;
+  }
+  
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 18px;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: #f3f3f3;
+  }
+  
+  .page {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  }
+  
